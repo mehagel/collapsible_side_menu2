@@ -1,0 +1,74 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+    
+    Don't change the container width.
+  */
+  margin: 0 auto;  
+  width: 720px;
+  padding-left: 160px;
+}
+
+h1 {
+  margin: 16px 0 0 0;
+}
+
+#open {
+  position: fixed;
+  height: 100%;
+  left:0px;
+  top:0px;
+  margin-right: 10px;
+  color: red;
+  text-align: right;
+}
+
+#close {
+
+  color: red;
+  text-align: right;
+}
+
+nav {
+  position: fixed;
+  width: 148px;
+  height: 100%;
+  background-color: #D3D4D5;
+  border-right: 2px solid #b7babe;
+  left:0px;
+  top:0px;
+  margin-right: 10px;
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border-bottom: 1px solid #b7babe;
+  padding: 6px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 40px 0 10px;
+  margin: 0;
+}
+
+li a:hover {
+  color: gray;
+}
+
+.footer {
+  clear: both;
+  float: right;
+  width: 570px;
+  padding-top: 24px;
+}
